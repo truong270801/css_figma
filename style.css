@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .container {
@@ -11,7 +10,7 @@
 }
 
 /* Bài 1 */
-.hinh-1 {
+.image-1 {
     position: relative;
     width: 146px;
     height: 126px;
@@ -30,16 +29,15 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    bottom: 0%;
-    right: 0%;
     background-color: #F2994A;
+    right: 0;
+    bottom: 0;
 }
 
 /* Bài 2 */
-.hinh-2 {
+.image-2 {
     display: block;
     margin-bottom: 100px;
-
 }
 
 .line-1 {
@@ -83,7 +81,7 @@
 }
 
 /* Bài 3 */
-.hinh-3 {
+.image-3 {
     background-color: #C4C4C4;
     width: 224px;
     height: 237px;
@@ -126,7 +124,7 @@ footer {
 }
 
 /* Bài 4 */
-.hinh-4 {
+.image-4 {
     width: 385px;
     height: 110px;
     margin-bottom: 100px;
@@ -158,7 +156,7 @@ footer {
 }
 
 /* Bài 5 */
-.hinh-5 {
+.image-5 {
     width: 77.78px;
     height: 233.78px;
     margin-bottom: 100px;
@@ -174,44 +172,44 @@ footer {
 
 
 /* Bài 6 */
-.hinh-6 {
+.image-6 {
     background-color: #F2994A;
     width: 339px;
     height: 339px;
-    padding: auto;
     color: white;
     text-align: center;
 }
 
-.hinh-6 input {
+.image-6 input {
     width: 195px;
     height: 41px;
     border-radius: 5px;
     border: 1px solid #ffff;
     background-color: #F2994A;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.hinh-6 input::placeholder {
+.image-6 input::placeholder {
     color: white;
     padding: 10px;
 }
 
-.hinh-6 button {
+.image-6 button {
     width: 195px;
     height: 40px;
     border: 1px solid Orange;
     background: #9B51E0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    border-radius: 5px;
 
 }
 
-.hinh-6 button:hover {
+.image-6 button:hover {
     background-color: #7E41B5;
 }
 
-.hinh-6 p {
+.image-6 p {
     width: 83px;
     height: 12px;
     font-family: Roboto;
