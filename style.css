@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Bài 1 */
+.hinh-1 {
+    position: relative;
+    width: 146px;
+    height: 126px;
+    border: 2px solid red;
+    background-color: #C4C4C4;
+    margin-bottom: 100px;
+}
+
+.box-1_1 {
+    width: 55px;
+    height: 55px;
+    background-color: #EB5757;
+}
+
+.box-1_2 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    bottom: 0%;
+    right: 0%;
+    background-color: #F2994A;
+}
+
+/* Bài 2 */
+.hinh-2 {
+    display: block;
+    margin-bottom: 100px;
+
+}
+
+.line-1 {
+    display: inline-block;
+}
+
+.box-2_1 {
+    width: 55px;
+    height: 55px;
+    transform: rotate(45deg);
+    background-color: #F2994A;
+    margin: 25px 10px;
+}
+
+.box-2_2 {
+    width: 55px;
+    height: 55px;
+    transform: rotate(45deg);
+    background-color: #9B51E0;
+    margin: 25px 10px;
+}
+
+.line-2 {
+    display: inline-block;
+}
+
+.box-2_3 {
+    width: 55px;
+    height: 55px;
+    transform: rotate(45deg);
+    background-color: #2F80ED;
+    margin: 25px 10px;
+}
+
+.box-2_4 {
+    width: 55px;
+    height: 55px;
+    transform: rotate(45deg);
+    background-color: #EB5757;
+    margin: 25px 10px;
+}
+
+/* Bài 3 */
+.hinh-3 {
+    background-color: #C4C4C4;
+    width: 224px;
+    height: 237px;
+    margin-bottom: 100px;
+}
+
+header {
+    background-color: #EB5757;
+    width: 223px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 10px;
+}
+
+main {
+
+    display: flow-root;
+    margin-bottom: 35px;
+}
+
+.col1 {
+    width: 149px;
+    height: 126px;
+    background-color: #F2994A;
+    float: left;
+}
+
+.col2 {
+    width: 64px;
+    height: 126px;
+    float: right;
+    background-color: #EB5757;
+}
+
+footer {
+    background-color: #9B51E0;
+    width: 224px;
+    height: 34px;
+}
+
+/* Bài 4 */
+.hinh-4 {
+    width: 385px;
+    height: 110px;
+    margin-bottom: 100px;
+}
+
+.block-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-2 {
+    display: flex;
+
+}
+
+.box-4_1 {
+    background-color: #F2994A;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box-4_2 {
+    background-color: #F2994A;
+    width: 55px;
+    height: 55px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 55px;
+}
+
+/* Bài 5 */
+.hinh-5 {
+    width: 77.78px;
+    height: 233.78px;
+    margin-bottom: 100px;
+}
+
+.box-5_1 {
+    width: 55px;
+    height: 55px;
+    transform: rotate(45deg);
+    background-color: #2F80ED;
+    margin: 25px;
+}
+
+
+/* Bài 6 */
+.hinh-6 {
+    background-color: #F2994A;
+    width: 339px;
+    height: 339px;
+    padding: auto;
+    color: white;
+    text-align: center;
+}
+
+.hinh-6 input {
+    width: 195px;
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    background-color: #F2994A;
+    margin-bottom: 10px;
+}
+
+.hinh-6 input::placeholder {
+    color: white;
+    padding: 10px;
+}
+
+.hinh-6 button {
+    width: 195px;
+    height: 40px;
+    border: 1px solid Orange;
+    background: #9B51E0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+
+.hinh-6 button:hover {
+    background-color: #7E41B5;
+}
+
+.hinh-6 p {
+    width: 83px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    text-align: left;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
