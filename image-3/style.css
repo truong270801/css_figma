@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    animation: move 2s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateY(180px);
+    }
+
+    50% {
+        transform: translate(180px, 180px);
+    }
+ 
+    75% {
+        transform: translate(180px, 0px);
+    }
+
+    100% {
+        transform: translateX(0);
+    } 
+
+}
