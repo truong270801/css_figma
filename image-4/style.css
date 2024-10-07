@@ -52,9 +52,9 @@
 .image-container img:nth-child(2) {
     animation: slide 6s infinite 2s ;
 }
-.image-container img:nth-child(4) {
+.image-container img:nth-child(3) {
     animation: slide 6s infinite 4s ;
 }
-.image-container img:nth-child(3) {
+.image-container img:nth-child(4) {
     animation: slide 6s infinite 6s ;
 }
