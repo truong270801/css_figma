@@ -38,9 +38,7 @@
         transform: translateY(-50px);
     }
 
-    100% {
-        transform: translateY(50px);
-    }
+   
 }
 
 @keyframes move2 {
@@ -50,7 +48,5 @@
     50% {
         transform: translateY(50px);
     }
-    100% {
-        transform: translateY(-50px);
-    }
+  
 }
